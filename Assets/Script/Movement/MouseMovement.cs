@@ -15,11 +15,6 @@ public class MouseMovement : MonoBehaviour
         p_rigidbody = GetComponent<Rigidbody2D>();
     }
 
-    private void Start()
-    {
-        
-    }
-
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
