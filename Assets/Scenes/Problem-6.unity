@@ -148,7 +148,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.6745283, g: 1, b: 0.9688681, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -519,9 +519,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinSpawn: 5
-  boxCoinPrefabs: {fileID: 6840245318076883931, guid: 11b5da533a436fc43a0f0a5ddb236ae4,
+  boxCoinPrefab: {fileID: 6840245318076883931, guid: 11b5da533a436fc43a0f0a5ddb236ae4,
     type: 3}
   areaConstraintValue: 5
+  scoreText: {fileID: 0}
 --- !u!4 &1476879058
 Transform:
   m_ObjectHideFlags: 0
